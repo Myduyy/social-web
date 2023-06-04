@@ -1,0 +1,715 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mimibook</title>
+    <link rel="icon" href="./imgs/logo_m.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/Fonts/fontawesome-free-6.1.1-web/css/all.css">
+</head>
+
+<body>
+    <nav>
+        <div class="container">
+            <div class="container">
+                <div class="left">
+                    <div class="logo">
+                        <img src="./imgs/logo_m.png" alt="">
+                    </div>
+                    <div class="search-bar">
+                        <i class="fas fa-search"></i>
+                        <input type="search" placeholder="Tìm kiếm trên mimiBook">
+                    </div>
+                </div>
+                <div class="middle">
+                    <div href="#" title="Trang chủ">
+                        <i class="fas fa-home-alt"></i>
+                    </div>
+                    <div href="#watch" title="watch">
+                        <i class="fas fa-video"></i>
+                    </div>
+                    <div href="#marketPlace" title="Marketplace">
+                        <i class="fas fa-store"></i>
+                    </div>
+                    <div href="#group" title="Nhóm">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <div href="#feed" title="Bảng feed (Gần đây nhất)">
+                        <i class="fas fa-table"></i>
+                    </div>
+    
+                </div>
+                <div class="right">
+                    
+                    <div class="menu-item">
+                        <span>
+                            <i class="fab fa-facebook-messenger" id="messages-notifications"></i>
+                            <p class="message-count">3</p>
+                        </span>
+                    </div>
+                    <div class="menu-item" id="notifications">
+                        <span>
+                            <i class="fas fa-bell"></i>
+                            <p class="notification-count">6</p>
+                            <div class="notification-popup">
+                                <div class="notification-item">
+                                    <div >
+                                        <img class="profile-photo" src="./imgs/profile_2.jpg" alt="">
+                                    </div>
+                                    <div class="motification-body">
+                                        <b>Thắm Võ</b> đã bày tỏ cảm xúc về một bài viết:
+                                        <small class="text-muted">2 giờ trước</small>
+                                    </div>
+                                </div>
+                                <div class="notification-item">
+                                    <div >
+                                        <img class="profile-photo" src="./imgs/profile_3.jpg" alt="">
+                                    </div>
+                                    <div class="motification-body">
+                                        <b>TEK4.VN</b> đã nhắc đến bạn và những người khác ở một bình luận
+                                        <small class="text-muted">10 ngày trước</small>
+                                    </div>
+                                </div>
+                                <div class="notification-item">
+                                    <div >
+                                        <img class="profile-photo" src="./imgs/profile_4.jpg" alt="">
+                                    </div>
+                                    <div class="motification-body">
+                                        <b>Hương Giang</b> đã bình luận về ảnh bạn chia sẻ.
+                                        <small class="text-muted">1 ngày trước</small>
+                                    </div>
+                                </div>
+                                <div class="notification-item"> 
+                                    <div >
+                                        <img class="profile-photo" src="./imgs/profile_4.jpg" alt="">
+                                    </div>
+                                    <div class="motification-body">
+                                        <b>Trọng Hoài</b> đã chấp nhận lời kết bạn của bạn.
+                                        <small class="text-muted">2 ngày trước</small>
+                                    </div>
+                                </div>
+                                <div class="notification-item">
+                                    <div >
+                                        <img class="profile-photo" src="./imgs/profile_4.jpg" alt="">
+                                    </div>
+                                    <div class="motification-body">
+                                        <b>Thu Thủy</b> đã chia sẻ bài viết của <b>Liên chi hội Khoa</b>.
+                                        <small class="text-muted">4 ngày trước</small>
+                                    </div>
+                                </div>
+                                <div class="notification-item"> 
+                                    <div >
+                                        <img class="profile-photo" src="./imgs/profile_4.jpg" alt="">
+                                    </div>
+                                    <div class="motification-body">
+                                        Chào mừng bạn đến với <b>Hội Review Cafe VietNam.</b>
+                                        <small class="text-muted">1 tuần trước</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </span>
+                    </div>
+                    <div class="profile-photo menu-item">
+                        <img src="./imgs/profile_1.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- main -->
+    <main>
+        <div class="container">
+            <!-- left -->
+            <div class="left">
+                <a class="profile">
+                    <div class="profile-photo">
+                        <img src="./imgs/profile_1.jpg" alt="">
+                    </div>
+                    <div class="handle">
+                        <h4>Mỹ Duy</h4>
+                    </div>
+                </a>
+                <div class="sidebar">
+                    <a class="menu-item">
+                        <span>
+                            <i class="fas fa-user-friends"></i>
+                            <h4>Bạn bè</h4>
+                        </span>
+                    </a>
+
+                    <a class="menu-item">
+                        <span>
+                            <i class="fas fa-newspaper"></i>
+                            <h4>Bảng feed (Gần đây nhất) </h4>
+                        </span>
+                    </a>
+                    <a class="menu-item">
+                        <span>
+                            <i class="fas fa-users"></i>
+                            <h4>Nhóm</h4>
+                        </span>
+                    </a>
+                    <a class="menu-item">
+                        <span>
+                            <i class="fas fa-store"></i>
+                            <h4>Marketplace</h4>
+                        </span>
+                    </a>
+                    <a class="menu-item">
+                        <span>
+                            <i class="fas fa-video"></i>
+                            <h4>Watch</h4>
+                        </span>
+                    </a>
+                    <a class="menu-item">
+                        <span>
+                            <i class="fas fa-cog"></i>
+                            <h4>Cài đặt</h4>
+                        </span>
+                    </a>
+                    <h3>Lối tắt của bạn</h3>
+                    <a class="menu-item">
+                        <span>
+                            <img class="shortcuts" src="/imgs/profile_11.jpg" alt="">
+                            <h4>Chị em mần đẹp</h4>
+                        </span>
+                    </a>
+                    <a class="menu-item">
+                        <span>
+                            <img class="shortcuts" src="/imgs/profile_15.jpg" alt="">
+                            <h4>Review đồ Skincare</h4>
+                        </span>
+                    </a>
+                    <a class="menu-item">
+                        <span>
+                            <img class="shortcuts" src="/imgs/profile_4.jpg" alt="">
+                            <h4>Frontend Developer</h4>
+                        </span>
+                    </a>
+                    <a class="menu-item">
+                        <span>
+                            <img class="shortcuts" src="/imgs/profile_18.jpg" alt="">
+                            <h4>GenZ làm IT</h4>
+                        </span>
+                    </a>
+                </div>
+            </div>
+
+            <!-- middle -->
+            <div class="middle">
+                <!-- stories -->
+                <div class="stories">
+                    <div class="story my-story">
+                        <div class="create">
+                            <i class="fa-solid fa-circle-plus"></i>
+                        </div>
+                        <p class="name">Tạo tin</p>
+                    </div>
+                    <div class="story">
+                        <div class="profile-photo">
+                            <img src="./imgs/profile_3.jpg" alt="">
+                        </div>
+                        <p class="name">Khánh Văn</p>
+                    </div>
+                    <div class="story">
+                        <div class="profile-photo">
+                            <img src="./imgs/profile_4.jpg" alt="">
+                        </div>
+                        <p class="name">Hi Su</p>
+                    </div>
+                    <div class="story">
+                        <div class="profile-photo">
+                            <img src="./imgs/profile_6.jpg" alt="">
+                        </div>
+                        <p class="name">Diễm My</p>
+                    </div>
+                    <div class="story">
+                        <div class="profile-photo">
+                            <img src="./imgs/profile_7.jpg" alt="">
+                        </div>
+                        <p class="name">Ái Trân</p>
+                    </div>
+                </div>
+                <div class="create-post">
+                    <div class="profile-photo">
+                        <img src="./imgs/profile_1.jpg" alt="">
+                    </div>
+                    <input type="text" placeholder="Mỹ Duy ơi, bạn đang nghĩ gì thế?" id="create-post">
+                    <input type="submit" value="Post" class="btn btn-primary">
+                </div>
+
+                <!-- feeds -->
+                <div class="feeds">
+
+                    <div class="feed">
+                        <div class="head">
+                            <div class="user">
+                                <div class="profile-photo">
+                                    <img class="photo" src="./imgs/profile_12.jpg" alt="">
+                                </div>
+                                <div class="ingo">
+                                    <h3>Minh Thư</h3>
+                                    <small>Tp Hồ Chí Minh, 15 phút trước</small>
+                                </div>
+                                <span class="edit">
+                                    <i class="fas fa-ellipsis-h"></i>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="caption">
+                            <p>Cho dù người nằm sâu trong tim bạn khó quên đến mấy, thì sau này khi gặp được đúng người,
+                                bạn cũng sẽ buông xuống được thôi.
+                                <span class="harsh-tag">#lovestyle</span>
+                            </p>
+                        </div>
+                        <div class="photo">
+                            <img src="./imgs/feed_1.jpg" alt="">
+                        </div>
+                        <div class="action-buttons">
+                            <div class="interaction-buttons">
+                                <span><i class="far fa-thumbs-up"></i> Thích</span> 
+                                <span><i class="far fa-comment-alt"></i> Bình luận</span> 
+                                <span><i class="fas fa-share"></i> Chia sẻ</span>
+                            </div>
+                        </div>
+                        <div class="liked-by">
+                            <span><img src="./imgs/profile_15.jpg" alt=""></span>
+                            <span><img src="./imgs/profile_14.jpg" alt=""></span>
+                            <span><img src="./imgs/profile_18.jpg" alt=""></span>
+                            <p>Bảo Hân và 2,341 người khác</p>
+                        </div>
+                        <div class="comments text-muted">
+                            Xem tất cả 277 bình luận
+                        </div>
+                    </div>
+
+                    <div class="feed">
+                        <div class="head">
+                            <div class="user">
+                                <div class="profile-photo">
+                                    <img class="photo" src="./imgs/profile_19.jpg" alt="">
+                                </div>
+                                <div class="ingo">
+                                    <h3>Thanh Thanh</h3>
+                                    <small>Đà Lạt, 36 phút trước</small>
+                                </div>
+                                <span class="edit">
+                                    <i class="fas fa-ellipsis-h"></i>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="caption">
+                            <p>Cho dù người nằm sâu trong tim bạn khó quên đến mấy, thì sau này khi gặp được đúng người,
+                                bạn cũng sẽ buông xuống được thôi.
+                                <span class="harsh-tag">#lovestyle</span>
+                            </p>
+                        </div>
+                        <div class="photo">
+                            <img src="./imgs/feed_2.jpg" alt="">
+                        </div>
+                        <div class="action-buttons">
+                            <div class="interaction-buttons">
+                                <span><i class="far fa-thumbs-up"></i> Thích</span> 
+                                <span><i class="far fa-comment-alt"></i> Bình luận</span> 
+                                <span><i class="fas fa-share"></i> Chia sẻ</span>
+                            </div>
+                        </div>
+                        <div class="liked-by">
+                            <span><img src="./imgs/profile_4.jpg" alt=""></span>
+                            <span><img src="./imgs/profile_6.jpg" alt=""></span>
+                            <span><img src="./imgs/profile_8.jpg" alt=""></span>
+                            <p>Bảo Hân và 2,341 người khác</p>
+                        </div>
+                        <div class="comments text-muted">
+                            Xem tất cả 277 bình luận
+                        </div>
+                    </div>
+
+                    <div class="feed">
+                        <div class="head">
+                            <div class="user">
+                                <div class="profile-photo">
+                                    <img class="photo" src="./imgs/profile_8.jpg" alt="">
+                                </div>
+                                <div class="ingo">
+                                    <h3>Phan Ngọc Bảo Châu</h3>
+                                    <small>Tp Hồ Chí Minh, 1 giờ trước</small>
+                                </div>
+                                <span class="edit">
+                                    <i class="fas fa-ellipsis-h"></i>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="caption">
+                            <p>Cho dù người nằm sâu trong tim bạn khó quên đến mấy, thì sau này khi gặp được đúng người,
+                                bạn cũng sẽ buông xuống được thôi.
+                                <span class="harsh-tag">#lovestyle</span>
+                            </p>
+                        </div>
+                        <div class="photo">
+                            <img src="./imgs/feed_3.jpg" alt="">
+                        </div>
+                        <div class="action-buttons">
+                            <div class="interaction-buttons">
+                                <span><i class="far fa-thumbs-up"></i> Thích</span> 
+                                <span><i class="far fa-comment-alt"></i> Bình luận</span> 
+                                <span><i class="fas fa-share"></i> Chia sẻ</span>
+                            </div>
+                        </div>
+                        <div class="liked-by">
+                            <span><img src="./imgs/profile_15.jpg" alt=""></span>
+                            <span><img src="./imgs/profile_14.jpg" alt=""></span>
+                            <span><img src="./imgs/profile_18.jpg" alt=""></span>
+                            <p>Bảo Hân và 2,341 người khác</p>
+                        </div>
+                        <div class="comments text-muted">
+                            Xem tất cả 277 bình luận
+                        </div>
+                    </div>
+
+                    <div class="feed">
+                        <div class="head">
+                            <div class="user">
+                                <div class="profile-photo">
+                                    <img class="photo" src="./imgs/profile_16.jpg" alt="">
+                                </div>
+                                <div class="ingo">
+                                    <h3>Văn Lâm</h3>
+                                    <small>Tp Hồ Chí Minh, 15 phút trước</small>
+                                </div>
+                                <span class="edit">
+                                    <i class="fas fa-ellipsis-h"></i>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="caption">
+                            <p>Cho dù người nằm sâu trong tim bạn khó quên đến mấy, thì sau này khi gặp được đúng người,
+                                bạn cũng sẽ buông xuống được thôi.
+                                <span class="harsh-tag">#lovestyle</span>
+                            </p>
+                        </div>
+                        <div class="photo">
+                            <img src="./imgs/feed_4.jpg" alt="">
+                        </div>
+                        <div class="action-buttons">
+                            <div class="interaction-buttons">
+                                <span><i class="far fa-thumbs-up"></i> Thích</span> 
+                                <span><i class="far fa-comment-alt"></i> Bình luận</span> 
+                                <span><i class="fas fa-share"></i> Chia sẻ</span>
+                            </div>
+                        </div>
+                        <div class="liked-by">
+                            <span><img src="./imgs/profile_7.jpg" alt=""></span>
+                            <span><img src="./imgs/profile_11.jpg" alt=""></span>
+                            <span><img src="./imgs/profile_13.jpg" alt=""></span>
+                            <p>Bảo Hân và 2,341 người khác</p>
+                        </div>
+                        <div class="comments text-muted">
+                            Xem tất cả 277 bình luận
+                        </div>
+                    </div>
+
+                    <div class="feed">
+                        <div class="head">
+                            <div class="user">
+                                <div class="profile-photo">
+                                    <img class="photo" src="./imgs/profile_20.jpg" alt="">
+                                </div>
+                                <div class="ingo">
+                                    <h3>Hoàng Long</h3>
+                                    <small>Tp Hồ Chí Minh, 2 giờ trước</small>
+                                </div>
+                                <span class="edit">
+                                    <i class="fas fa-ellipsis-h"></i>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="caption">
+                            <p>Cho dù người nằm sâu trong tim bạn khó quên đến mấy, thì sau này khi gặp được đúng người,
+                                bạn cũng sẽ buông xuống được thôi.
+                                <span class="harsh-tag">#lovestyle</span>
+                            </p>
+                        </div>
+                        <div class="photo">
+                            <img src="./imgs/feed_5.jpg" alt="">
+                        </div>
+                        <div class="action-buttons">
+                            <div class="interaction-buttons">
+                                <span><i class="far fa-thumbs-up"></i> Thích</span> 
+                                <span><i class="far fa-comment-alt"></i> Bình luận</span> 
+                                <span><i class="fas fa-share"></i> Chia sẻ</span>
+                            </div>
+                        </div>
+                        <div class="liked-by">
+                            <span><img src="./imgs/profile_19.jpg" alt=""></span>
+                            <span><img src="./imgs/profile_17.jpg" alt=""></span>
+                            <span><img src="./imgs/profile_15.jpg" alt=""></span>
+                            <p>Bảo Hân và 2,341 người khác</p>
+                        </div>
+                        <div class="comments text-muted">
+                            Xem tất cả 277 bình luận
+                        </div>
+                    </div>
+
+                    <div class="feed">
+                        <div class="head">
+                            <div class="user">
+                                <div class="profile-photo">
+                                    <img class="photo" src="./imgs/profile_12.jpg" alt="">
+                                </div>
+                                <div class="ingo">
+                                    <h3>Minh Thư</h3>
+                                    <small>Tp Hồ Chí Minh, 15 phút trước</small>
+                                </div>
+                                <span class="edit">
+                                    <i class="fas fa-ellipsis-h"></i>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="caption">
+                            <p>Cho dù người nằm sâu trong tim bạn khó quên đến mấy, thì sau này khi gặp được đúng người, bạn
+                                cũng sẽ buông xuống được thôi.
+                                <span class="harsh-tag">#lovestyle</span>
+                            </p>
+                        </div>
+                        <div class="photo">
+                            <img src="./imgs/feed_6.jpg" alt="">
+                        </div>
+                        <div class="action-buttons">
+                            <div class="interaction-buttons">
+                                <span><i class="far fa-thumbs-up"></i> Thích </span>
+                                <span><i class="far fa-comment-alt"></i> Bình luận</span>
+                                <span><i class="fas fa-share"></i> Chia sẻ</span>
+                            </div>
+                            
+                        </div>
+                        <div class="liked-by">
+                            <span><img src="./imgs/profile_15.jpg" alt=""></span>
+                            <span><img src="./imgs/profile_14.jpg" alt=""></span>
+                            <span><img src="./imgs/profile_18.jpg" alt=""></span>
+                            <p>Bảo Hân và 2,341 người khác</p>
+                        </div>
+                        <div class="comments text-muted">
+                            Xem tất cả 277 bình luận
+                        </div>
+                    </div>
+    
+                    <div class="feed">
+                        <div class="head">
+                            <div class="user">
+                                <div class="profile-photo">
+                                    <img class="photo" src="./imgs/profile_12.jpg" alt="">
+                                </div>
+                                <div class="ingo">
+                                    <h3>Minh Thư</h3>
+                                    <small>Tp Hồ Chí Minh, 15 phút trước</small>
+                                </div>
+                                <span class="edit">
+                                    <i class="fas fa-ellipsis-h"></i>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="caption">
+                            <p>Cho dù người nằm sâu trong tim bạn khó quên đến mấy, thì sau này khi gặp được đúng người, bạn
+                                cũng sẽ buông xuống được thôi.
+                                <span class="harsh-tag">#lovestyle</span>
+                            </p>
+                        </div>
+                        <div class="photo">
+                            <img src="./imgs/feed_7.jpg" alt="">
+                        </div>
+                        <div class="action-buttons">
+                            <div class="interaction-buttons">
+                                <span><i class="far fa-thumbs-up"></i> Thích</span>
+                                <span><i class="far fa-comment-alt"></i> Bình luận</span>
+                                <span><i class="fas fa-share"></i> Chia sẻ</span>
+                            </div>
+                            
+                        </div>
+                        <div class="liked-by">
+                            <span><img src="./imgs/profile_15.jpg" alt=""></span>
+                            <span><img src="./imgs/profile_14.jpg" alt=""></span>
+                            <span><img src="./imgs/profile_18.jpg" alt=""></span>
+                            <p>Bảo Hân và 2,341 người khác</p>
+                        </div>
+                        <div class="comments text-muted">
+                            Xem tất cả 277 bình luận
+                        </div>
+                    </div>
+                </div>
+
+                
+            </div>
+            <!-- right -->
+            <div class="right">
+                <div class="messages">
+                    <div class="heading">
+                        <h4>Messages</h4><i class="fas fa-edit"></i>
+                    </div>
+                    <!-- search bar -->
+                    <div class="search-bar">
+                        <i class="fas fa-search"></i>
+                        <input type="search" placeholder="Search massages" id="message-search">
+                    </div>
+                    <!-- messages category -->
+                    <div class="category">
+                        <h6 class="active">Hộp thư</h6>
+                        <h6>Cộng đồng</h6>
+                        <h6 class="message-requests">Yêu cầu(7)</h6>
+                    </div>
+                    <!-- message -->
+                    <div class="message">
+                        <div class="profile-photo">
+                            <img src="./imgs/profile_12.jpg" alt="">
+                        </div>
+                        <div class="message-body">
+                            <h5>Hạnh Trang</h5>
+                            <p class="text-muted">Trang đã gửi 1 ảnh</p>
+                        </div>
+                    </div>
+                    <div class="message">
+                        <div class="profile-photo">
+                            <img src="./imgs/profile_13.jpg" alt="">
+                            <div class="active"></div>
+                        </div>
+                        <div class="message-body">
+                            <h5>Minh Thư</h5>
+                            <p class="text-muted">Tr ơi con người ta</p>
+                        </div>
+                    </div>
+                    <div class="message">
+                        <div class="profile-photo">
+                            <img src="./imgs/profile_14.jpg" alt="">
+                        </div>
+                        <div class="message-body">
+                            <h5>Bảo Hà</h5>
+                            <p class="text-muted">Tới nhà rồi nhaaa</p>
+                        </div>
+                    </div>
+                    <div class="message">
+                        <div class="profile-photo">
+                            <img src="./imgs/profile_16.jpg" alt="">
+                        </div>
+                        <div class="message-body">
+                            <h5>Minh Hằng</h5>
+                            <p class="text-muted">Bạn: Oki bro</p>
+                        </div>
+                    </div>
+                    <div class="message">
+                        <div class="profile-photo">
+                            <img src="./imgs/profile_15.jpg" alt="">
+                            <div class="active"></div>
+                        </div>
+                        <div class="message-body">
+                            <h5>Trọng Hiếu</h5>
+                            <p class="text-muted">Hiếu đã gửi một file</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="fanpage">
+                    <div class ="title-page"> 
+                        <h4>Trang và Trang cá nhân của bạn</h4>
+                        <i class="fas fa-ellipsis-h"></i>
+                    </div>
+                    <ul>
+                        <li><a href="">
+                            <img class="profile-photo" src="/imgs/profile_11.jpg" alt=""></a>
+                            <p class="title">Aphrodite Cosmetic</p>
+                        </li>
+                        <li><a href="">
+                            <i class="fas fa-bell"></i>
+                            <p class="page-text">2 Thông báo</p>
+                            </li>
+                        <li><a href="">
+                            <i class="fas fa-sync-alt"></i>
+                            <p class="page-text">Chuyển sang Trang</p>
+                        </li>
+                        <li><a href="">
+                            <i class="fas fa-ad"></i>
+                            <p class="page-text">Tạo quảng cáo</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="request">
+                    <div class="request-title">
+                        <h4 class="sub-title">Lời mời kết bạn</h4>
+                        <a class="setting-text">Xem tất cả</p>
+                    </div>
+                    <div class="request-detail">
+                        <img src="imgs/profile_1.jpg" alt="">
+                        <div class="request-detail-content">
+                            <div class="request-top">
+                                <div class="request-part-left">
+                                    <p class="title">Ann Nguyen</p>
+                                    <div class="common-friend">
+                                        <img src="imgs/profile_11.jpg" alt="">
+                                        <img src="imgs/profile_15.jpg" alt="">
+                                        <p class="note-text">27 bạn chung</p>
+                                    </div>
+                                </div>
+                                <div class="request-part-right">
+                                    <p class="time-request">3 ngày</p>
+                                </div>
+                            </div>
+                            <div class="request-bottom">
+                                <button class="main-btn" type="button">Xác nhận</button>
+                                <button class="sub-btn" type="button">Xóa</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="line"></div>
+                <div class="contact">
+                    <div class="contact-title">
+                        <h4 class="sub-title">Người liên hệ</h4>
+                        <div class="contact-icon">
+                            <i class="fas fa-video"></i>
+                            <i class="fas fa-search"></i>
+                            <i class="fas fa-ellipsis-h"></i>
+                        </div>
+                    </div>
+                    <div class="contact-list">
+                        <ul>
+                            <li class="contact-item"><a href="">
+                                <img src="imgs/profile_12.jpg" alt="">
+                                <div class="title">Nguyễn Ngọc Bảo Trân</div>
+                            </a></li>
+                            <li class="contact-item"><a href="">
+                                <img src="imgs/profile_5.jpg" alt="">
+                                <div class="title">Phạm Nguyễn Lan Thi</div>
+                            </a></li>
+                            <li class="contact-item"><a href="">
+                                <img src="imgs/profile_8.jpg" alt="">
+                                <div class="title">Mai Trang</div>
+                            </a></li>
+                            <li class="contact-item"><a href="">
+                                <img src="imgs/profile_17.jpg" alt="">
+                                <div class="title">Trâm Anh</div>
+                            </a></li>
+                            <li class="contact-item"><a href="">
+                                <img src="imgs/profile_18.jpg" alt="">
+                                <div class="title">Trung Hoàng</div>
+                            </a></li>
+                            <li class="contact-item"><a href="">
+                                <img src="imgs/profile_14.jpg" alt="">
+                                <div class="title">Xuân Kỳ</div>
+                            </a></li>
+                            <li class="contact-item"><a href="">
+                                <img src="imgs/profile_19.jpg" alt="">
+                                <div class="title">Kim Phụng</div>
+                            </a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
